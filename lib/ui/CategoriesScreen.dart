@@ -89,8 +89,8 @@ class _CategoriesScreenState extends State<CategoriesScreen> {
                             ),
                           ),
                         )
-                      : Text("adf")
-                  : Text("ABC");
+                      : Text("No Data found")
+                  : Text("No DATA found");
             },
           ),
         ],
