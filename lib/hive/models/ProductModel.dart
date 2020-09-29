@@ -3,7 +3,9 @@ import 'package:your_product/hive/models/VariantModel.dart';
 
 import 'TaxModel.dart';
 
-@HiveType(typeId: 1)
+part 'ProductModel.g.dart';
+
+@HiveType(typeId: 3)
 class ProductModel{
   @HiveField(0)
   int id;

@@ -1,6 +1,8 @@
 import 'package:hive/hive.dart';
 
-@HiveType(typeId: 1)
+part 'TaxModel.g.dart';
+
+@HiveType(typeId: 4)
 class TaxModel{
   @HiveField(1)
   String name;
